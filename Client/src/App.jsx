@@ -7,6 +7,7 @@ import WriteArticle from './pages/WriteArticle'
 import BlogTitles from './pages/BlogTitles'
 import SocialMediaGenerator from './pages/SocialMediaGenerator'
 import ReviewResume from './pages/ReviewResume'
+import Success from "./pages/Success";
 
 //import { useAuth } from '@clerk/clerk-react'
 import {Toaster} from "react-hot-toast"
@@ -26,6 +27,7 @@ function App() {
           <Route path='social-media' element={<SocialMediaGenerator />} />
           <Route path='review-resume' element={<ReviewResume />} />
         </Route>
+        <Route path="/success" element={<Success />} />
       </Routes>
     </div>
   )
