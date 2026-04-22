@@ -5,7 +5,7 @@ import { clerkMiddleware, getAuth, clerkClient } from '@clerk/express'
 import { v2 as cloudinary } from 'cloudinary'
 import aiRouter from './routes/aiRoutes.js'
 import connectCloudinary from './configs/cloudinart.js'
-import userRouter from './routes/userRoutes.js'
+import userRouter from './routes/UserRoutes.js'
 
 const app = express()
 
