@@ -1,4 +1,4 @@
-# 🚀 AIVault
+#  AIVault
 
 A powerful, full-stack AI application designed to streamline content creation and enhance your professional profile. Built with a modern React frontend and a robust Node.js backend, AIVault leverages the power of Google's Gemini AI to generate articles, craft blog titles, create engaging social media posts, and perform expert resume reviews.
 
