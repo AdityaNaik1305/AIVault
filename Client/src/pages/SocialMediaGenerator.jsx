@@ -96,7 +96,7 @@ const SocialMediaGenerator = () => {
                         loading ? <span className='w-4 h-4 my-1 rounded-full border-2 border-t-transparent animate-spin'></span>
                             : <MessageSquareQuote className='w-5' />
                     }
-                    Generate Post
+                    Generate Caption
                 </button>
             </form>
 
@@ -104,14 +104,14 @@ const SocialMediaGenerator = () => {
             <div className='w-full max-w-lvh p-4 bg-white rounded-lg flex flex-col border border-gray-200 min-h-97 max-h-[550px]'>
                 <div className='flex items-center gap-3'>
                     <MessageSquareQuote className='w-5 text-[#3588F2]' />
-                    <h1 className='text-xl font-semibold'>Generated Post</h1>
+                    <h1 className='text-xl font-semibold'>Generated Caption</h1>
                 </div>
 
                 {!content ? (
                     <div className='flex-1 flex justify-center items-center'>
                         <div className='text-sm flex flex-col items-center gap-5 text-gray-400'>
                             <MessageSquareQuote className='w-20 h-10 text-gray-300' />
-                            <p>Your generated post will appear here</p>
+                            <p>Your generated caption will appear here</p>
                         </div>
                     </div>
                 ) : (
